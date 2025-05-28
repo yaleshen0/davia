@@ -1,0 +1,60 @@
+# JetBrains IDEs (WebStorm, IntelliJ, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/ # If you also use VS Code
+venv/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+.pnp/
+.pnp.js
+
+# Build artifacts
+dist/
+build/
+out/
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+bower_components/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# npm package lock files
+package-lock.json
+yarn.lock # if you use yarn
+
+# Test reports
+coverage/
+.nyc_output/
+
+# Compiled files
+*.js.map
+*.css.map
+
+# Other common ignores
+temp/
+tmp/
+*.bak
+*.swp
